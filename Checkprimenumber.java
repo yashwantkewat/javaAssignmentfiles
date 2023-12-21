@@ -7,8 +7,10 @@ public class Checkprimenumber
         boolean checkprime = true;
         for (int i = 2; i <num; i++)
         {
-         if (num%2==0)
-             checkprime = false;
+            if (num%2==0)
+              { 
+                  checkprime = false;
+              }
         }
         if (checkprime=true)
         {
