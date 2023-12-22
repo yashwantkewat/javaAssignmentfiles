@@ -20,24 +20,26 @@ public class Checkprimenumber
         {
             System.out.println("prime");
         }
+
+        
          // wap to count all prime number between 1 to 100
-//        int  i,j,chk;
-//     for (i=2;i<=100;i++)
-//     {
-//         chk = 0;
-//         for (j=2;j<i;j++)
-//         {
-//             if (i%j==0)
-//             {
-//                 chk++;
-//                 break;
-//             }
-//         }
-//         if (chk==0)
-//         {
-//             System.out.println(i);
-//         }
-//     }
+       int  i,j,chk;
+     for (i=2;i<=100;i++)
+     {
+         chk = 0;
+         for (j=2;j<i;j++)
+         {
+             if (i%j==0)
+             {
+                 chk++;
+                 break;
+             }
+         }
+         if (chk==0)
+         {
+             System.out.println(i);
+         }
+     }
 
         
         int i,j,chk;
